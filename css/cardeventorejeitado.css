@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #ff2b34;
+    --black: #222;
+    --white: #fff;
+    --texto: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+#topo {
+    background: var(--red);
+    width: 100%;
+    height: 17vh;
+}
+
+.menu {
+    justify-content: space-around;
+    height: 17vh;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.menu li {
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 0 1vw;
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--texto)
+}
+
+.logo {
+    width: 100%;
+    margin-top: 1em; 
+    padding-right: 60em;   
+    
+}
+
+.icon {
+    display: none;
+}
+
+.teste:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+.botao {
+    background: var(--black);
+    border-radius: 0.75em;
+    padding: 2vh;
+    width: 12vw;
+    height: vh;
+    
+}
+
+.botao li{
+    margin-top: -1em;
+}
+
+.menu .teste {
+    padding: 2vh 1vw;
+}
+
+/* fim da nav */
+
+/* aqui é a div pai */
+.alinhamentocards{
+    width: 100%;
+    height: 90vh;
+    margin-top: 6em;
+    /* background-color: green; */
+    justify-content: center;
+}
+/* aqui é o fim da div pai */
+
+/* aqui é o começo das duas divs */
+.cardimagem{
+    width: 35vw;
+    height: 70vh;
+    background-color: #fafdff;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.3em 0.3em #222;
+
+}
+
+.cardinformacao{
+    width: 37vw;
+    height: 60vh;
+    background-color: #222;
+    margin-top: 2.5em;
+    /* box-shadow: 0.3em 0.2em #222; */
+}
+/* aqui é o fim das duas divs */
+
+/* aqui é a edição da imagem da div cardimagem */
+.cardeventorejeitadoimg{
+    width: 35vw;
+}
+/* fim da edição da imagem da div cardimagem */
+
+/* aqui são as edições de h1/h2/p etc */
+.edicaotitulotextocardeventorejeitado{
+    font-family: var(--texto);
+    text-transform: uppercase;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+    color: #fafdff;
+}
+
+.textocardeventorejeitado{
+    font-family: var(--texto);
+    margin-top: 3em;
+    color: #fafdff;
+    margin-left: 0.5em; 
+}
+
+.titulodocardeventorejeitadoimg{
+    font-family: var(--texto);
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 3em;
+}
+/* fim das edições de h1/h2/p etc */
+
+/* aqui são as edições da opção banir */
+.cardeventorejeitadobanir{
+    justify-content: center;
+    font-family: var(--texto);
+    text-transform: capitalize;
+}
+
+.cardrejeitadobanircomunidade{
+    justify-content: center;
+}
+
+.cardrejeitadoopcaosim{
+    width: 10vw;
+    height: 10vh;
+    /* background-color: green; */
+}
+
+.cardrejeitadoopcaonao{
+    width: 10vw;
+    height: 10vh;
+    /* background-color:red; */
+}
+
+.cardrejeitadobanircomunidade{
+    margin-bottom: 5em; 
+}
+/* fim das edições da opção banir */
